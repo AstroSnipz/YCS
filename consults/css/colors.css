@@ -1,0 +1,78 @@
+/* Primary Color */
+.btnTheme.btnNoOver:hover,
+.btnTheme::before,
+.btnThemeWhite .btnText,
+.hdScheduleList a[href^="tel"],
+.mainNavigation .nav-item.active .nav-link,
+.mainNavigation.navbar-nav .nav-item.active .nav-link,
+.mainNavigation .nav-link:hover,
+.mainNavigation.navbar-nav .nav-link:hover,
+.headingTitle,
+.featuresList > li::before,
+.btnPlay:hover,
+.btnMore:hover,
+.ratingList,
+.hdBtn:hover,
+.ftAddresList .icnWrap,
+.ftSocialNetworks a,
+#pageFooter p a {
+  color: #1a5276; /* Dark Blue */
+}
+
+.btnTheme.btnNoOver,
+.btnTheme .btnText,
+.btnThemeWhite::before,
+.hdScheduleList .icnWrap,
+.hdBtn,
+.btnPlay,
+.serviceColumn .icnWrap,
+.teamBlock::before,
+.tcSocialNetworks a:hover,
+.reqAsideBlock,
+.ftSocialNetworks a:hover,
+.btnTop:hover {
+  background-color: #1a5276; /* Dark Blue */
+}
+
+.btnTheme.btnNoOver,
+.btnTheme.btnNoOver:hover,
+.btnTheme::before,
+.btnTheme .btnText,
+.btnThemeWhite::before,
+.headingHead.hhv2 .headingTitle::before,
+.headingHead.hhv2 .headingTitle::after,
+.headingHead::after,
+.tcSocialNetworks a:hover {
+  border-color: #1a5276; /* Dark Blue */
+}
+
+/* Accent Color */
+.serviceColumn {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.serviceColumn:hover {
+  transform: translateY(-5px); /* Move the card up slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.serviceColumn .imgHolder {
+  transition: transform 0.3s ease;
+}
+
+.serviceColumn:hover .imgHolder {
+  transform: scale(1.1); /* Scale up the image slightly on hover */
+}
+
+.serviceColumn .imgHolder img {
+  transition: transform 0.3s ease;
+  width: 100%;
+  height: auto;
+}
+
+.serviceColumn:hover .imgHolder img {
+  transform: translateY(-10px); /* Move the image up slightly on hover */
+}
